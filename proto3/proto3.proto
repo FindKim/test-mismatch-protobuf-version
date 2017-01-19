@@ -1,0 +1,9 @@
+syntax = "proto3";
+
+package three;
+
+import "proto2/proto2.proto";
+
+message TestMessageWrapper{
+    two.TestMessage test_message_wrapper = 1;
+}
